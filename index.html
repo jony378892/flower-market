@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Flower</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="p-4 max-w-[1450px] mx-auto">
+      <!-- start of nav section -->
+      <nav class="">
+        <div class="flex items-center justify-between">
+          <img src="./assets/logo.png" alt="logo" class="w-20" />
+          <div class="flex gap-8 items-center text-sm">
+            <div class="hidden md:flex items-center gap-8 md:gap-10">
+              <a href="" class="">Home</a>
+              <a href="" class="text-black/70">Shop </a>
+              <a href="" class="text-black/70">About Us</a>
+            </div>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-cart-shopping text-lg"></i>
+              <p>Cart ($25)</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- start of hero section -->
+      <section
+        class="flex flex-col-reverse sm:flex-row gap-5 items-end lg:mt-16"
+      >
+        <div class="sm:mt-32">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold">
+            Always <span class="text-orange-600">Fresh <br />Flowers</span>
+          </h1>
+          <p class="text-sm md:text-base opacity-50 mt-3 text-balance">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <img src="./assets/hero-flower.png" alt="" class="sm:w-1/2" />
+      </section>
+    </header>
+  </body>
+</html>
