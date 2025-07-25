@@ -13,12 +13,14 @@
   </head>
   <body>
     <!-- Header Section -->
+
     <header class="p-4 max-w-[1450px] mx-auto">
       <!-- start of nav section -->
+
       <nav class="">
         <div class="flex items-center justify-between">
-          <img src="./assets/logo.png" alt="logo" class="w-20" />
-          <div class="flex gap-8 items-center text-sm">
+          <img src="./assets/logo.png" alt="logo" class="w-20 lg:w-32" />
+          <div class="flex gap-8 items-center text-sm lg:text-base">
             <div class="hidden sm:flex items-center gap-8 md:gap-10">
               <a href="" class="">Home</a>
               <a href="" class="text-black/70">Shop </a>
@@ -32,6 +34,7 @@
         </div>
       </nav>
       <!-- start of hero section -->
+
       <section
         class="flex flex-col-reverse sm:flex-row gap-5 items-end lg:mt-16"
       >
@@ -50,10 +53,11 @@
     </header>
 
     <!-- start of main section -->
+
     <main class="my-14 sm:my-20 flex flex-col gap-7 max-w-[1450px] mx-auto">
       <!-- start of our plants section -->
 
-      <section class="text-center p-4">
+      <section class="text-center p-4 2xl:px-0">
         <h2 class="text-3xl font-semibold mb-5">
           <span class="text-orange-500">Our</span> Plants
         </h2>
@@ -157,11 +161,12 @@
       </section>
 
       <!-- start of flower and plant lover -->
+
       <section
-        class="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-10 lg:gap-20 sm:gap-10 p-4 mt-16"
+        class="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-10 lg:gap-20 sm:gap-10 p-4 2xl:px-0 mt-16"
       >
         <div class="relative w-full sm:w-[550px] lg:w-[600px]">
-          <img src="./assets/flower-store.png" alt="" class="" />
+          <img src="./assets/flower-store.png" alt="flower store" />
           <img
             src="./assets/trusted-badge.png"
             alt=""
@@ -196,16 +201,18 @@
 
       <!-- start of latest deals section -->
 
-      <section class="mt-16 space-y-8 p-4">
+      <section class="mt-16 space-y-8 p-4 2xl:px-0">
         <h2 class="text-3xl font-semibold text-center">
           <span class="text-orange-500">Latest</span> Deals
         </h2>
-        <p class="opacity-50 text-center">
+        <p class="opacity-50 text-center max-w-2xl mx-auto">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-10 h-full">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-3 mt-10 h-full"
+        >
           <div
             class="bg-[url(./assets/deal-ana.png)] bg-no-repeat bg-black/50 bg-blend-soft-light bg-center bg-cover w-full h-56 md:h-46 rounded-xl"
           >
@@ -233,7 +240,7 @@
             </div>
           </div>
           <div
-            class="bg-[url(./assets/deal-bloom.png)] bg-no-repeat bg-black/50 bg-blend-soft-light bg-center bg-cover w-full h-56 md:h-46 rounded-xl"
+            class="bg-[url(./assets/deal-bloom.png)] bg-no-repeat bg-black/50 bg-blend-soft-light bg-center bg-cover min-w-full h-56 md:h-46 rounded-xl"
           >
             <div
               class="flex flex-col gap-3 items-center justify-center h-full text-white font-semibold"
@@ -248,36 +255,40 @@
           </div>
         </div>
       </section>
-
-      <!-- start of newslatter section -->
-
-      <section class="relative w-full">
-        <div
-          class="flex items-center justify-center bg-[url(./assets/news-letter-bg.png)] bg-cover bg-center h-52 md:h-72 lg:h-96 p-5"
-        >
-          <div class="flex flex-col gap-5 w-full">
-            <p class="text-center font-bold text-white/80 text-lg">
-              Join the colorful Bunch
-            </p>
-            <div
-              class="flex items-center justify-center text-sm sm:text-base mx-auto w-full"
-            >
-              <input
-                type="text"
-                placeholder="Your email"
-                class="p-2 bg-white placeholder:opacity-50 w-3/4 md:w-1/2"
-              />
-              <button class="bg-orange-500 text-white text-center px-3 py-2">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
+    <!-- start of newslatter section -->
+
+    <section class="relative min-w-vw">
+      <div
+        class="flex items-center justify-center bg-[url(./assets/news-letter-bg.png)] bg-cover bg-center h-52 md:h-72 lg:h-96 p-5"
+      >
+        <div class="flex flex-col gap-5 lg:gap-8 xl:gap-10 w-full">
+          <p
+            class="text-center font-bold text-white text-xl md:text-2xl lg:text-3xl"
+          >
+            Join the colorful Bunch
+          </p>
+          <div
+            class="flex items-center justify-center text-sm sm:text-base mx-auto w-full"
+          >
+            <input
+              type="text"
+              placeholder="Your email"
+              class="p-2 bg-white placeholder:opacity-50 w-3/4 md:w-1/2 lg:w-5/12"
+            />
+            <button class="bg-orange-500 text-white text-center px-3 py-2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- start of footer section -->
-    <footer class="p-4 flex flex-col sm:flex-row gap-7 max-w-[1450px] mx-auto">
+    <footer
+      class="p-4 2xl:px-0 flex flex-col sm:flex-row gap-7 max-w-[1450px] mx-auto py-10"
+    >
       <div class="space-y-4 sm:w-2/6">
         <img src="./assets/logo.png" alt="" />
         <p class="opacity-50">
